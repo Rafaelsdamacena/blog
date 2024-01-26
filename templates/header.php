@@ -18,6 +18,15 @@
 </head>
     <body>
         <header>
-            <h3> Template cabeçalho </h3>
+            <a href="<?= $BASE_URL ?>" id="logo">
+                <img src="<?= $BASE_URL ?>/img/eu.png" alt="Rafael Santos">
+            </a>
+            <nav>
+                <ul id="navbar">
+                    <li><a href="<?= $BASE_URL ?>"> HOME </a></li>
+                    <li><a href="<?= $BASE_URL ?>"> PROJECTS </a></li>
+                    <li><a href="<?= $BASE_URL ?>"> CONTACT </a></li>
+                </ul>
+            </nav>
         </header>
     
