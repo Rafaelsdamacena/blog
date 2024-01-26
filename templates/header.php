@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Rafael</title>
+    <title>Rafael Santos</title>
 
     <!--style-->
     <link rel="stylesheet" href="<?= $BASE_URL ?>/css/style.css">
@@ -23,9 +23,9 @@
             </a>
             <nav>
                 <ul id="navbar">
-                    <li><a href="<?= $BASE_URL ?>"> HOME </a></li>
-                    <li><a href="<?= $BASE_URL ?>"> PROJECTS </a></li>
-                    <li><a href="<?= $BASE_URL ?>"> CONTACT </a></li>
+                    <li><a href="<?= $BASE_URL ?>" class="nav-link"> HOME </a></li>
+                    <li><a href="<?= $BASE_URL ?>" class="nav-link"> PROJECTS </a></li>
+                    <li><a href="<?= $BASE_URL ?>" class="nav-link"> CONTACT </a></li>
                 </ul>
             </nav>
         </header>
