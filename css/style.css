@@ -30,7 +30,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: #012030;
     padding: 20px;
     list-style: none;
 }
@@ -58,7 +58,7 @@ footer {
     position: absolute;
     bottom: 0;
     text-align: center;
-    background-color: #000;
+    background-color: #012030;
     color: #fff;
     padding: 20px;
     font-size: 18px;
