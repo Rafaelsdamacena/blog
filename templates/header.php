@@ -16,8 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
 
 </head>
-<body>
-    <header>
-        <h3> Template cabeçalho </h3>
-    </header>
+    <body>
+        <header>
+            <h3> Template cabeçalho </h3>
+        </header>
     
