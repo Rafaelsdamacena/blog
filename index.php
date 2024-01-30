@@ -2,7 +2,24 @@
     include_once("templates/header.php");
 ?>
 
-        <h1>Olá Mundo!! </h1>
+    <main>
+        <div id="title-container">
+            <h1>TÍTULO</h1>
+            <p> Subtítulo </p>
+        </div>
+
+        <div id="post-container">
+            <?php foreach($posts as $post): ?>
+                <div class="post-box">
+                    <img src="<?= $BASE_URL ?>/img/<?= $post['img']?>" alt="<?= $post['title'] ?>">
+                    <h2 class="post-title">
+                        <a href="<?= $BASE_URL ?>post.php?id=<?= $post['id']?>"><?= $post['title'] ?>
+                    </h2>
+                    <p class="post-description"><?= $post['description']?></p>
+            <?php endforeach; ?>
+        </div>
+
+    </main>
     
 
 <?php
