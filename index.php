@@ -16,6 +16,12 @@
                         <a href="<?= $BASE_URL ?>post.php?id=<?= $post['id']?>"><?= $post['title'] ?>
                     </h2>
                     <p class="post-description"><?= $post['description']?></p>
+                    <div class="tags-container"> 
+                        <?php foreach($posts['tags'] as $tag): ?>
+                            <a href="#"> <?= $tag ?> </a>
+                        <?php endforeach; ?>
+
+                    </div>
             <?php endforeach; ?>
         </div>
 
