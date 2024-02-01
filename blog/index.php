@@ -4,8 +4,8 @@
 
     <main>
         <div id="title-container">
-            <h1>TÍTULO</h1>
-            <p> Subtítulo </p>
+            <h1>RAFAEL DAMACENA</h1>
+            <p> Um pouco sobre mim e coisas que eu gosto</p>
         </div>
 
         <div id="post-container">

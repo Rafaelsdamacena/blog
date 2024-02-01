@@ -25,9 +25,9 @@
             </a>
             <nav>
                 <ul id="navbar">
-                    <li><a href="<?= $BASE_URL ?>" class="nav-link"> HOME </a></li>
-                    <li><a href="<?= $BASE_URL ?>" class="nav-link"> PROJECTS </a></li>
-                    <li><a href="<?= $BASE_URL ?>" class="nav-link"> CONTACT </a></li>
+                    <li><a href="<?= $BASE_URL ?>/index.php" class="nav-link"> HOME </a></li>
+                    <li><a href="<?= $BASE_URL ?>/projects.php" class="nav-link"> PROJETOS </a></li>
+                    <li><a href="<?= $BASE_URL ?>/contact.php" class="nav-link"> CONTATO </a></li>
                 </ul>
             </nav>
         </header>
