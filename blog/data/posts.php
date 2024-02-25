@@ -5,21 +5,21 @@
       'id' => 1,
       'title' => 'Um pouco de mim',
       'description' => 'Aqui vou me apresentar e falar um pouco sobre mim',
-      'tags' => ['Trajetória', 'Habilidades', 'Hobbies'],
+      'tags' => ['Trajetória', 'Habilidades', 'Interesses'],
       'img' => 'rafael-capa.jpeg'
     ],
     [
       'id' => 2,
       'title' => 'Um pouco da minha jornada',
       'description' => 'Aqui vou apresentar um pouco da minha trajetória profissional',
-      'tags' => ['Sobre', 'Habilidades', 'Hobbies'],
+      'tags' => ['Sobre', 'Habilidades', 'Interesses'],
       'img' => 'trajetoria.jpg'
     ],
     [
       'id' => 3,
       'title' => 'Um pouco das minhas habilidades',
       'description' => 'Aqui vou falar um pouco sobre minhas skills',
-      'tags' => ['Sobre', 'Trajetória', 'Hobbies'],
+      'tags' => ['Sobre', 'Trajetória', 'Interesses'],
       'img' => 'habilidade.jpg',
     ],
     [
@@ -27,6 +27,6 @@
       'title' => 'Um pouco dos meus interesses',
       'description' => 'Aqui vou falar um pouco sobre o que eu gosto de fazer',
       'tags' => ['Sobre', 'Trajetória', 'Habilidades'],
-      'img' => 'hobbie.jpg'
+      'img' => 'interesses.jpg'
     ],
   ];
